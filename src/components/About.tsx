@@ -9,7 +9,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="relative">
             <div className="aspect-[3/4] overflow-hidden rounded-sm relative">
-              <img src="https://images.unsplash.com/photo-1560707303-4e980ce876ad?q=80&w=1000" alt="Studio Interior" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+              <img src="/GorillasInk/images/about.png" alt="Studio Interior" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 border border-white/10 m-4 pointer-events-none"></div>
             </div>
             <div className="absolute -bottom-8 -right-8 bg-anthracite p-8 border border-white/5 hidden md:block">

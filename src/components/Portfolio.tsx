@@ -13,7 +13,7 @@ const GALLERY_STYLES = [
 ];
 
 const GALLERY_ITEMS = [
-  { id: 1, category: "Black & Grey", image: "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?q=80&w=800", title: "Löwenkopf", subtitle: "Black & Grey Realism" },
+  { id: 1, category: "Black & Grey", image: "/GorillasInk/images/portfolio1.png", title: "Löwenkopf", subtitle: "Black & Grey Realism" },
   { id: 2, category: "Fineline", image: "https://images.unsplash.com/photo-1590246814883-57884d635a92?q=80&w=800", title: "Mandala", subtitle: "Dotwork & Fineline" },
   { id: 3, category: "Traditional", image: "https://images.unsplash.com/photo-1562916172-e1cb5561a298?q=80&w=800", title: "Rose & Dagger", subtitle: "Old School Traditional" },
   { id: 4, category: "Piercing", image: "https://images.unsplash.com/photo-1563212001-f513dc939527?q=80&w=800", title: "Septum Piercing", subtitle: "Präzisions-Piercing" },

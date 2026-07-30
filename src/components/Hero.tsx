@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=2000" alt="Studio" className="w-full h-full object-cover opacity-40" referrerPolicy="no-referrer" />
+        <img src="/GorillasInk/images/hero.png" alt="Studio" className="w-full h-full object-cover opacity-40" referrerPolicy="no-referrer" />
         <div className="absolute inset-0 bg-gradient-to-b from-darker/60 via-darker/80 to-darker"></div>
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 flex flex-col items-center text-center mt-20">
