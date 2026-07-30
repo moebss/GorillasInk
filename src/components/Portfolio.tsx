@@ -14,11 +14,11 @@ const GALLERY_STYLES = [
 
 const GALLERY_ITEMS = [
   { id: 1, category: "Black & Grey", image: "/GorillasInk/images/portfolio1.png", title: "Löwenkopf", subtitle: "Black & Grey Realism" },
-  { id: 2, category: "Fineline", image: "https://images.unsplash.com/photo-1590246814883-57884d635a92?q=80&w=800", title: "Mandala", subtitle: "Dotwork & Fineline" },
-  { id: 3, category: "Traditional", image: "https://images.unsplash.com/photo-1562916172-e1cb5561a298?q=80&w=800", title: "Rose & Dagger", subtitle: "Old School Traditional" },
-  { id: 4, category: "Piercing", image: "https://images.unsplash.com/photo-1563212001-f513dc939527?q=80&w=800", title: "Septum Piercing", subtitle: "Präzisions-Piercing" },
-  { id: 5, category: "Realismus", image: "https://images.unsplash.com/photo-1578306830578-18eaf3ebc839?q=80&w=800", title: "Porträt", subtitle: "Photo Realism" },
-  { id: 6, category: "Black & Grey", image: "https://images.unsplash.com/photo-1582236592237-79fc70fc56ee?q=80&w=800", title: "Wolf", subtitle: "Dark Blackwork" }
+  { id: 2, category: "Fineline", image: "/GorillasInk/images/portfolio2.png", title: "Mandala", subtitle: "Dotwork & Fineline" },
+  { id: 3, category: "Traditional", image: "/GorillasInk/images/portfolio3.png", title: "Rose & Dagger", subtitle: "Old School Traditional" },
+  { id: 4, category: "Piercing", image: "/GorillasInk/images/portfolio4.png", title: "Septum Piercing", subtitle: "Präzisions-Piercing" },
+  { id: 5, category: "Realismus", image: "/GorillasInk/images/portfolio5.png", title: "Porträt", subtitle: "Photo Realism" },
+  { id: 6, category: "Black & Grey", image: "/GorillasInk/images/portfolio6.png", title: "Wolf", subtitle: "Dark Blackwork" }
 ];
 
 export default function Portfolio() {
