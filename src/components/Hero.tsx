@@ -17,7 +17,7 @@ export default function Hero() {
               <Star key={i} size={14} className="fill-gold text-gold" />
             ))}
           </div>
-          <span className="text-light/90 text-sm font-medium tracking-wide">4,9/5 · 87 Google Bewertungen</span>
+          <span className="text-light/90 text-sm font-medium tracking-wide">5,0/5 · 391 Google Bewertungen</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-light leading-tight mb-8">
