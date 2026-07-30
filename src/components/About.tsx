@@ -1,4 +1,3 @@
-﻿
 import { motion } from 'motion/react';
 import { PenTool, ShieldCheck } from 'lucide-react';
 
@@ -21,23 +20,23 @@ export default function About() {
           </motion.div>
           
           <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}>
-            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-gold uppercase tracking-[0.2em] text-sm mb-4">Ãœber das Studio</motion.h2>
+            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-gold uppercase tracking-[0.2em] text-sm mb-4">Über das Studio</motion.h2>
             <motion.h3 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="font-serif text-4xl md:text-6xl text-light leading-tight mb-12">Leidenschaft unter der Haut.</motion.h3>
             
             <p className="text-light/70 leading-relaxed mb-12 text-lg">
-              Gorillas Ink ist deine Anlaufstelle fÃ¼r professionelle Tattoos und Piercings mitten in BÃ¼dingen. Wir legen hÃ¶chsten Wert auf Hygiene, PrÃ¤zision und vor allem darauf, dass dein Tattoo genau deinen Vorstellungen entspricht. Ob feine Linien, Realismus oder dein ganz individuelles Custom Design â€“ bei uns bist du in den besten HÃ¤nden. Wir beraten dich umfassend und setzen deine Ideen mit Leidenschaft um.
+              Gorillas Ink ist deine Anlaufstelle für professionelle Tattoos und Piercings mitten in Büdingen. Wir legen höchsten Wert auf Hygiene, Präzision und vor allem darauf, dass dein Tattoo genau deinen Vorstellungen entspricht. Ob feine Linien, Realismus oder dein ganz individuelles Custom Design – bei uns bist du in den besten Händen. Wir beraten dich umfassend und setzen deine Ideen mit Leidenschaft um.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
               <div className="flex flex-col">
                 <PenTool size={32} className="text-gold mb-6" />
                 <h4 className="text-light font-medium uppercase tracking-wider text-sm mb-3">Custom Design</h4>
-                <p className="text-light/50 text-sm leading-relaxed">Dein Tattoo ist einzigartig. Wir entwerfen individuelle Motive ganz nach deinen WÃ¼nschen.</p>
+                <p className="text-light/50 text-sm leading-relaxed">Dein Tattoo ist einzigartig. Wir entwerfen individuelle Motive ganz nach deinen Wünschen.</p>
               </div>
               <div className="flex flex-col">
                 <ShieldCheck size={32} className="text-gold mb-6" />
-                <h4 className="text-light font-medium uppercase tracking-wider text-sm mb-3">HÃ¶chste Hygiene</h4>
-                <p className="text-light/50 text-sm leading-relaxed">Wir arbeiten nach strengsten hygienischen Standards fÃ¼r deine Sicherheit und optimale Heilung.</p>
+                <h4 className="text-light font-medium uppercase tracking-wider text-sm mb-3">Höchste Hygiene</h4>
+                <p className="text-light/50 text-sm leading-relaxed">Wir arbeiten nach strengsten hygienischen Standards für deine Sicherheit und optimale Heilung.</p>
               </div>
             </div>
           </motion.div>
@@ -46,4 +45,3 @@ export default function About() {
     </section>
   );
 }
-
