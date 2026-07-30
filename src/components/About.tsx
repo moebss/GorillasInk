@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'motion/react';
 import { PenTool, ShieldCheck } from 'lucide-react';
 

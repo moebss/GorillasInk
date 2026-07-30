@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
 
 const OPENING_HOURS = [

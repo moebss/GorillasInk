@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import { motion, AnimatePresence } from 'motion/react';
 import { Maximize2, X } from 'lucide-react';
 

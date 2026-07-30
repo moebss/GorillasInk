@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'motion/react';
 
 const PROCESS_STEPS = [
