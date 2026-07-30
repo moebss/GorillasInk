@@ -1,4 +1,10 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
+import p1 from '../images/portfolio1.png';
+import p2 from '../images/portfolio2.png';
+import p3 from '../images/portfolio3.png';
+import p4 from '../images/portfolio4.png';
+import p5 from '../images/portfolio5.png';
+import p6 from '../images/portfolio6.png';
 
 import { motion, AnimatePresence } from 'motion/react';
 import { Maximize2, X } from 'lucide-react';
@@ -13,12 +19,12 @@ const GALLERY_STYLES = [
 ];
 
 const GALLERY_ITEMS = [
-  { id: 1, category: "Black & Grey", image: "/GorillasInk/images/portfolio1.png", title: "Löwenkopf", subtitle: "Black & Grey Realism" },
-  { id: 2, category: "Fineline", image: "/GorillasInk/images/portfolio2.png", title: "Mandala", subtitle: "Dotwork & Fineline" },
-  { id: 3, category: "Traditional", image: "/GorillasInk/images/portfolio3.png", title: "Rose & Dagger", subtitle: "Old School Traditional" },
-  { id: 4, category: "Piercing", image: "/GorillasInk/images/portfolio4.png", title: "Septum Piercing", subtitle: "Präzisions-Piercing" },
-  { id: 5, category: "Realismus", image: "/GorillasInk/images/portfolio5.png", title: "Porträt", subtitle: "Photo Realism" },
-  { id: 6, category: "Black & Grey", image: "/GorillasInk/images/portfolio6.png", title: "Wolf", subtitle: "Dark Blackwork" }
+  { id: 1, category: "Black & Grey", image: p1, title: "LÃ¶wenkopf", subtitle: "Black & Grey Realism" },
+  { id: 2, category: "Fineline", image: p2, title: "Mandala", subtitle: "Dotwork & Fineline" },
+  { id: 3, category: "Traditional", image: p3, title: "Rose & Dagger", subtitle: "Old School Traditional" },
+  { id: 4, category: "Piercing", image: p4, title: "Septum Piercing", subtitle: "PrÃ¤zisions-Piercing" },
+  { id: 5, category: "Realismus", image: p5, title: "PortrÃ¤t", subtitle: "Photo Realism" },
+  { id: 6, category: "Black & Grey", image: p6, title: "Wolf", subtitle: "Dark Blackwork" }
 ];
 
 export default function Portfolio() {
@@ -99,3 +105,4 @@ export default function Portfolio() {
     </section>
   );
 }
+
