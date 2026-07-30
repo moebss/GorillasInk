@@ -3,17 +3,17 @@
 
 const WORDS = [
   "TATTOO",
-  "·",
+  "★",
   "PIERCING",
-  "·",
+  "★",
   "PRÄZISION",
-  "·",
+  "★",
   "LEIDENSCHAFT",
-  "·",
+  "★",
   "HANDWERK",
-  "·",
+  "★",
   "BÜDINGEN",
-  "·",
+  "★",
 ];
 
 export default function Marquee() {
@@ -33,9 +33,9 @@ export default function Marquee() {
           <span
             key={i}
             className={
-              word === "·"
+              word === "★"
                 ? "text-gold text-lg"
-                : "text-light/20 text-xs uppercase tracking-[0.3em] font-medium"
+                : "text-light/35 text-xs uppercase tracking-[0.3em] font-medium"
             }
           >
             {word}
