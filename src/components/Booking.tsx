@@ -46,6 +46,22 @@ export default function Booking() {
                 </div>
               ))}
             </div>
+            
+            <div className="mt-12">
+              <h4 className="text-light font-medium uppercase tracking-wider text-sm mb-4">Hier findest du uns</h4>
+              <div className="w-full h-64 rounded-sm overflow-hidden border border-white/5 grayscale hover:grayscale-0 transition-all duration-500">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.4883492523265!2d9.109848176840332!3d50.29215080205847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd06cefc1b4539%3A0xc3b95eb0791ed963!2sBerliner%20Str.%202%2C%2063654%20B%C3%BCdingen!5e0!3m2!1sde!2sde!4v1714571234567!5m2!1sde!2sde" 
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen={false} 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Google Maps - Gorillas Ink"
+                ></iframe>
+              </div>
+            </div>
           </motion.div>
           
           <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="bg-anthracite p-8 md:p-12 border border-white/5">
